@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Santiago Pérez Vargas">
+    <meta name="keywords" content="Educación, Estudios, Santiago Pérez Vargas">
+    <meta name="description" content="Educación y formación académica de Santiago Pérez Vargas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación - Santiago Pérez Vargas</title>
+  </head>
+  <body>
+    <header>
+    
+      <img src="logo.png" alt="Logo con iniciales SPV" width="100">
+
+   
+      <h1>Hoja de Vida</h1>
+      <h2>Santiago Pérez Vargas</h2>
+      <h3>Fecha de nacimiento: 18 de enero del 2005</h3>
+      <h3>Lugar de nacimiento: Manizales, Caldas</h3>
+
+     
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="educacion.html">Educación</a></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+      </nav>
+      <hr>
+    </header>
+
+    <main>
+    
+      <section>
+        <h2>Educación</h2>
+        <table border="1" cellspacing="0" cellpadding="5">
+          <tr>
+            <th>Año</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>Título</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>Colegio Liceo León de Greiff</td>
+            <td>Manizales</td>
+            <td>Bachiller Académico</td>
+            <td>Sí</td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>Universidad Autónoma</td>
+            <td>Manizales</td>
+            <td>Técnico</td>
+            <td>Sí</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2>Agregar Estudios</h2>
+        <form>
+          <label for="anio">Año:</label><br>
+          <select id="anio" name="anio">
+            <option>2025</option>
+            <option>2024</option>
+            <option>2023</option>
+            <option>2022</option>
+            <option>2021</option>
+            <option>2020</option>
+          </select><br><br>
+
+          <label for="institucion">Institución:</label><br>
+          <input type="text" id="institucion" name="institucion" required><br><br>
+
+          <label for="lugar">Lugar:</label><br>
+          <input type="text" id="lugar" name="lugar"><br><br>
+
+          <label for="titulo">Título:</label><br>
+          <input type="text" id="titulo" name="titulo"><br><br>
+
+          <p>¿Culminó?</p>
+          <input type="radio" id="si" name="culmino" value="Sí">
+          <label for="si">Sí</label>
+          <input type="radio" id="no" name="culmino" value="No">
+          <label for="no">No</label><br><br>
+
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+
+    <!-- Pie -->
+    <footer>
+      <hr>
+      <p>&copy; 2025 - Santiago Pérez Vargas</p>
+      <p>Contacto: santiago.perezvargas@gmail.com | Tel: 3008716356</p>
+      <p>Dirección: Cra 31 #19-27, Manizales, Caldas</p>
+    </footer>
+  </body>
+</html>
